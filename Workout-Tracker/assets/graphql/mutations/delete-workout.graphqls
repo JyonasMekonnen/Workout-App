@@ -1,3 +1,0 @@
-mutation deleteWorkout($workoutId: Int!) {
-    deleteWorkout(workoutId: $workoutId) @namedClient(name: "BackendServiceGraphQLClient")
-}
